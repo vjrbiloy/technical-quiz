@@ -41,7 +41,7 @@ Array
  */
 
 
-
+// Answer: 
 $contacts = [
     [
         'name'  => 'Peter',
@@ -58,7 +58,6 @@ $formattedResults = [
     'names'  => [],
     'phones' => []
 ];
-
 
 foreach ($contacts as $contact) {
     $formattedResults['names'][] = $contact['name'];
